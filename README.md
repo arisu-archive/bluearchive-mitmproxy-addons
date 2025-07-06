@@ -106,12 +106,12 @@ Ensure you have the following software installed:
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/arisu-archive/mitmproxy-addon.git
+   git clone https://github.com/arisu-archive/bluearchive-mitmproxy-addons.git
    ```
 
 2. **Navigate to the project directory**:
    ```sh
-   cd mitmproxy-addon
+   cd bluearchive-mitmproxy-addons
    ```
 
 3. **Install Python dependencies**:
