@@ -1,5 +1,5 @@
 # Core dependencies
-mitmproxy>=12.1.1
+mitmproxy>=8.0.0
 
 # Crypto
 pycryptodome>=3.19.0
