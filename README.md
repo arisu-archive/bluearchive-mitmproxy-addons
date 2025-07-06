@@ -159,51 +159,24 @@ Ensure you have the following software installed:
 
 ```sh
 # Start with specific addon
-mitmweb -s addons/blue_archive.py
-
-# Start with multiple addons
-mitmweb -s addons/blue_archive.py -s addons/data_extractor.py
+mitmweb -s addons/switch_country.py
 
 # Start with custom port
-mitmweb -s addons/blue_archive.py -p 8080
+mitmweb -s addons/switch_country.py -p 8080
 
 # Start with logging
-mitmweb -s addons/blue_archive.py --set confdir=~/.mitmproxy
+mitmweb -s addons/switch_country.py --set confdir=~/.mitmproxy
 ```
 
 ## Available Addons
 
-### 🎮 Blue Archive Core (`blue_archive.py`)
-- **Purpose**: Main addon for Blue Archive traffic analysis
+### 🌍 Switch Country (`switch_country.py`)
+- **Purpose**: Switch your apparent region for the game
 - **Features**: 
+  - Switch your apparent region for the game
   - Request/response logging
   - JSON pretty-printing
-  - Basic data extraction
 - **Status**: ✅ Implemented
-
-### 📊 Data Extractor (`data_extractor.py`)
-- **Purpose**: Extract and organize game data
-- **Features**:
-  - Character data extraction
-  - Equipment information
-  - Event data parsing
-- **Status**: 🚧 In Development
-
-### 🔧 Developer Tools (`dev_tools.py`)
-- **Purpose**: Development utilities for modders
-- **Features**:
-  - Request modification
-  - Response simulation
-  - Debug logging
-- **Status**: 📋 Planned
-
-### 🌐 Web Dashboard (`dashboard.py`)
-- **Purpose**: Enhanced web interface for data visualization
-- **Features**:
-  - Real-time charts
-  - Data export tools
-  - Custom filtering
-- **Status**: 📋 Planned
 
 ## Troubleshooting
 
@@ -237,7 +210,7 @@ mitmweb -s addons/blue_archive.py --set confdir=~/.mitmproxy
 
 If you encounter issues:
 1. Check the [FAQ](#faq) section below
-2. Search existing [GitHub Issues](https://github.com/arisu-archive/mitmproxy-addon/issues)
+2. Search existing [GitHub Issues](https://github.com/arisu-archive/bluearchive-mitmproxy-addons/issues)
 3. Create a new issue with detailed information
 
 ## FAQ
