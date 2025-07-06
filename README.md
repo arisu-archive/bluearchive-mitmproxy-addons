@@ -218,23 +218,29 @@ If you encounter issues:
 ### General Questions
 
 **Q: Is this legal to use?**
+
 A: These tools are for educational and development purposes. Always respect the game's Terms of Service and applicable laws.
 
 **Q: Will this get my account banned?**
+
 A: While the tools only passively monitor traffic, use at your own risk. We recommend using test accounts.
 
 **Q: Does this work with other games?**
+
 A: The addons are specifically designed for Blue Archive, but the techniques can be adapted for other games.
 
 ### Technical Questions
 
 **Q: What data can I extract?**
+
 A: You can extract any data transmitted between the game client and server, including character stats, equipment, and event information.
 
 **Q: Can I modify game requests?**
+
 A: Yes, advanced addons can modify requests, but this requires careful implementation to avoid breaking the game.
 
 **Q: How do I contribute new addons?**
+
 A: See our [Contributing Guide](CONTRIBUTING.md) for detailed instructions on addon development.
 
 ## Contributing
