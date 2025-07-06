@@ -41,8 +41,8 @@ There are many ways to contribute to this project:
 1. **Fork the repository** on GitHub
 2. **Clone your fork** locally:
    ```bash
-   git clone https://github.com/your-username/mitmproxy-addon.git
-   cd mitmproxy-addon
+   git clone https://github.com/arisu-archive/bluearchive-mitmproxy-addons.git
+   cd bluearchive-mitmproxy-addons
    ```
 
 3. **Create a virtual environment**:
